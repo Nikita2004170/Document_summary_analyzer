@@ -103,7 +103,7 @@ build/
 dist/
 
 # Backend specific
-backend/public/temp/
+
 backend/logs/
 
 # Frontend specific
