@@ -4,7 +4,7 @@ import { extractText } from "../utils/extractText.js";
 import { generateSummaryHuggingFace } from "../utils/generateSummary.js";
 import mongoose from "mongoose";
 export const uploadFileController = async (req, res) => {
- // console.log("In upload file controller", req.file, req.user);
+  console.log("In upload file controller", req.file, req.user);
   try {
     if (!req.file) {
       return res.status(400).json({ success: false, message: "No file uploaded" });
