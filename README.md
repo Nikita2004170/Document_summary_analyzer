@@ -1,5 +1,7 @@
 # Document Summary Analyzer
 
+**[Live Demo](https://document-summary-analyzer-gamma.vercel.app/)**
+
 A full-stack web application that allows users to upload documents and generate AI-powered summaries. Built with React frontend and Node.js backend.
 
 ## 🚀 Features
